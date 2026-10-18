@@ -18,7 +18,7 @@ La carpeta `dist` contiene la versión para hosting estático. La vista local us
 ## Personalizar
 Edita `src/config.js`: nombre, carrera, fecha, nombres de padres, dirección, pin de Google Maps, teléfono de confirmación, textos y colores. La imagen se encuentra en `public/images/graduacion-editorial.png`; es una composición generada con IA, no una fotografía de la graduada. Las fuentes se descargan desde Google Fonts con alternativas locales.
 
-Fecha confirmada por el usuario: 24 de octubre de 2026. La hora «a las 5» se interpretó como 17:00 de Bolivia, guardada con zona explícita `-04:00`. El pin corresponde a la ubicación compartida en el proyecto anterior. Para confirmaciones se ha usado el teléfono facilitado antes: +591 73769491, que no se muestra como texto en la invitación. El código de vestimenta fue retirado a petición del usuario.
+Fecha confirmada por el usuario: 7 de noviembre de 2026. La hora «a las 5» se interpretó como 17:00 de Bolivia, guardada con zona explícita `-04:00`. El pin corresponde a la ubicación compartida en el proyecto anterior. Para confirmaciones se ha usado el teléfono facilitado antes: +591 73769491, que no se muestra como texto en la invitación. El código de vestimenta fue retirado a petición del usuario.
 
 La cuenta regresiva usa la hora del dispositivo y no pasa a valores negativos; al llegar al momento del evento cambia a celebración. El calendario exporta 17:00 de Bolivia como 21:00 UTC, sin inventar una hora de finalización.
 

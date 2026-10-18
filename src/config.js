@@ -1,6 +1,6 @@
 export const invitation={
  name:'Noelia Cantarran Villarroel',firstName:'Noelia',initials:'NC',degree:'Ingeniería en Sistemas',
- date:'2026-10-24T17:00:00-04:00',dateLabel:'Sábado, 24 de octubre de 2026',day:'24',month:'OCTUBRE',year:'2026',time:'17:00',timeLabel:'5:00 de la tarde',
+ date:'2026-11-07T17:00:00-04:00',dateLabel:'Sábado, 7 de noviembre de 2026',day:'07',month:'NOVIEMBRE',year:'2026',time:'17:00',timeLabel:'5:00 de la tarde',
  father:'Norberto Cantarran Orosco',mother:'Dorotea Villarroel Cabrera',
  address:'Calle Colombia, entre Padilla y Granado',city:'Sacaba · Cochabamba',landmark:'Cerca de la terminal de Sacaba',
  mapUrl:'https://maps.app.goo.gl/7zUxRqf9pCjctjVM9',mapEmbed:'https://www.google.com/maps?q=-17.400849%2C-66.041270&z=18&output=embed',
