@@ -1,0 +1,1 @@
+export default function LightSparks(){return <div className="light-sparks" aria-hidden="true">{Array.from({length:32},(_,i)=><i key={i} style={{left:`${(i*31+7)%100}%`,top:`${(i*23+3)%100}%`,'--spark-delay':`${-(i%11)}s`,'--spark-size':`${i%5===0?4:2}px`,'--spark-duration':`${4+i%4}s`}}/>)}</div>;}

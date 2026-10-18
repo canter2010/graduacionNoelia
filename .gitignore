@@ -1,0 +1,22 @@
+node_modules/
+dist/
+*.ics
+
+# Dependencias y archivos locales
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.openai/
+.codex/
+.vscode/
+__pycache__/
+*.pyc
+/tmp/
+/*.png
+/*.jpeg
+/*.jpg
+.DS_Store
+Thumbs.db

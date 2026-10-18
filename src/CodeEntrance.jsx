@@ -1,0 +1,4 @@
+import {useEffect,useState} from 'react';
+const symbols=['</>','{}','01','[ ]','10','=>',';','</>','{ }','0101','()','++'];
+export default function CodeEntrance(){const [visible,setVisible]=useState(true);useEffect(()=>{const id=setTimeout(()=>setVisible(false),6100);return()=>clearTimeout(id);},[]);if(!visible)return null;return <div className="code-entrance" aria-hidden="true">{Array.from({length:28},(_,i)=><span key={i} style={{left:`${3+(i*17)%94}%`,'--delay':`${(i%7)*.17}s`,'--drift':`${i%2?50:-50}px`,'--size':`${18+(i%4)*8}px`,'--tone':['#d8bf8b','#9ddbd2','#c2d1ee'][i%3]}}>{symbols[i%symbols.length]}</span>)}{Array.from({length:32},(_,i)=><i className="opening-spark" key={`spark-${i}`} style={{left:`${(i*29)%100}%`,top:`${35+(i*13)%50}%`,"--delay":`${(i%6)*.12}s`,"--drift":`${i%2?60:-60}px`}}/>)}</div>;}
+

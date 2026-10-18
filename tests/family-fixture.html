@@ -1,0 +1,4 @@
+<!doctype html><html lang="es"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><div id="root"></div><script type="module">
+import React from 'react';import {createRoot} from 'react-dom/client';import FamilySection from '../src/FamilySection.jsx';import {invitation} from '../src/config.js';import '../src/styles.css';
+createRoot(document.getElementById('root')).render(React.createElement(FamilySection,{event:{...invitation,memories:[{src:'/images/graduacion-editorial.png?test=1',alt:'Imagen de prueba uno',caption:'Prueba uno'},{src:'/images/graduacion-editorial.png?test=2',alt:'Imagen de prueba dos',caption:'Prueba dos'}]}}));
+</script></html>
