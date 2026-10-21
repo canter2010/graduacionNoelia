@@ -12,14 +12,17 @@ export const invitation={
  portraits:[{src:'/images/portada-01-graduada.png',alt:'Noelia con toga y birrete sosteniendo su diploma'},{src:'/images/portada-03-defensa.jpeg',alt:'Noelia durante la presentación de su trabajo académico'},{src:'/images/portada-04-mama.jpeg',alt:'Noelia junto a su mamá con su diploma y flores'}],
  portrait:{src:'/images/retrato-provisional.png',alt:'Retrato ilustrativo de una graduada en un estudio turquesa'},memories:[
 {src:'/images/recuerdo-01-familia.png',alt:'Noelia junto a su familia',caption:'El amor que acompaña cada paso.'},
-{src:'/images/recuerdo-02-mama.jpg',alt:'Retrato de mi mamá en el campo',caption:'Mamá, gracias por tu amor y por creer en mí.'},
-{src:'/images/recuerdo-03-papa.jpg',alt:'Retrato de mi papá en el campo',caption:'Papá, gracias por enseñarme a perseverar.'},
-{src:'/images/recuerdo-04-noche.png',alt:'Un recuerdo compartido frente a las luces de la ciudad',caption:'Los momentos que guardamos en el corazón.'},
+{src:'/images/recuerdo-padres-juntos.png',alt:'Mamá y papá juntos',caption:'Mamá y papá, gracias por su amor y por acompañarme en cada paso.'},
 {src:'/images/recuerdo-05-amigos.png',alt:'Un recuerdo con amigos al aire libre',caption:'Entre risas y compañía, el camino se hizo más bonito.'},
+{src:'/images/recuerdo-cumpleanos-luz-suave.png',alt:'Un recuerdo juntas celebrando un cumpleaños con globos morados',caption:'Momentos de alegría que siempre llevamos en el corazón.'},
 {src:'/images/recuerdo-06-amistad.png',alt:'Un recuerdo de amistad',caption:'Gracias por estar en cada etapa.'},
+{src:'/images/recuerdo-amigas-espejo.png',alt:'Un recuerdo juntas frente al espejo',caption:'Por la amistad que acompaña cada paso.'},
+{src:'/images/recuerdo-amigas-verde-morado.png',alt:'Un recuerdo juntas con chaquetas verde y morada',caption:'Gracias por compartir tantos momentos conmigo.'},
+{src:'/images/recuerdo-ciudad-atardecer.png',alt:'Un momento juntos contemplando la ciudad al atardecer',caption:'Los momentos que guardamos en el corazón.'},
+{src:'/images/recuerdo-tres-amigos.png',alt:'Una fotografía de tres amigos juntos al aire libre',caption:'Los sueños se disfrutan más con buena compañía.'},
 {src:'/images/recuerdo-07-picnic.png',alt:'Amigos compartiendo un picnic',caption:'Los mejores recuerdos se construyen juntos.'},
-{src:'/images/recuerdo-08-juntas.png',alt:'Una fotografía juntas al aire libre',caption:'Por las risas, los consejos y la amistad.'},
-{src:'/images/recuerdo-09-celebracion.png',alt:'Un recuerdo de celebración con mis amigos',caption:'Celebrar juntos hace que cada logro sea más especial.'},
+
+{src:'/images/recuerdo-09-grupo-original-elegida.png',alt:'Un recuerdo de celebración con mis amigos',caption:'Celebrar juntos hace que cada logro sea más especial.'},
 {src:'/images/recuerdo-10-programando.png',alt:'Compartiendo una jornada de programación frente a nuestras computadoras',caption:'Entre código, aprendizajes y sueños compartidos.'}
 ],
  friendsThanks:'A mis amigos, por las risas que aligeraron los días difíciles, por escucharme, animarme y celebrar conmigo cada pequeño logro. Gracias por su compañía y por hacer de este camino un recuerdo tan especial.',
