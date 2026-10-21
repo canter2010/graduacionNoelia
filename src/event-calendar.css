@@ -46,3 +46,42 @@
 .family-section .photo-slide.active{grid-template-rows:clamp(300px,85vw,480px) auto}
 .family-section .photo-slide:first-child.active{grid-template-rows:auto auto}
 }
+/* Clear event details and balanced phone layout. */
+.event-month--systems .em-time>strong{font-size:clamp(36px,5vw,48px);font-weight:600;line-height:1.2}
+.event-month--systems .em-caption{font-size:clamp(21px,3vw,27px);line-height:1.4;font-weight:600}
+.event-month--systems .em-title{font-size:38px}
+.event-month--systems .em-title small{font-size:27px}
+.venue-card .venue-type{font-size:22px;color:#e8cd94;font-weight:600;margin-bottom:12px}
+@media(max-width:760px){
+.family-section.section{padding-inline:20px}
+.family-section .family-heading,.family-section .family-letter{text-align:center}
+.family-section .family-letter{border-left:0;padding:0;max-width:520px;margin-inline:auto}
+.family-section .family-letter>svg{display:block;margin:0 auto 16px}
+.family-section .family-letter>p{line-height:1.8}
+.family-section .family-heading h2{font-size:clamp(28px,7.5vw,36px);letter-spacing:-.5px}
+.family-section .family-content,.family-section .photo-carousel{min-width:0;width:100%;margin-inline:auto}
+.family-section .photo-slide img{object-position:center}
+.family-section .letter-signature{margin:18px auto 0}
+.hero-copy{text-align:center}
+.hero-copy .graduate-name>p{justify-content:center}
+.hero-art{margin-inline:auto;max-width:100%}
+.event-month--systems .em-caption{font-size:23px}
+.event-month--systems .em-time>strong{font-size:42px}
+.event-month--systems .em-title{font-size:35px}
+}
+/* Center all presentation copy and actions on phone screens. */
+@media(max-width:760px){
+.hero .hero-copy{align-items:center;text-align:center;width:100%;min-width:0}
+.hero .hero-copy>h1,.hero .hero-copy>.hero-intro{width:100%;max-width:100%;text-align:center;margin-inline:auto}
+.hero .hero-copy>.button{align-self:center;margin-inline:auto;justify-content:center}
+.hero .graduate-name{text-align:center}
+.hero .graduate-name>p{justify-content:center}
+.rsvp .rsvp-copy,.event-section .venue-card,.parents .parents-intro{text-align:center;width:100%;min-width:0}
+.rsvp .rsvp-copy>h2,.rsvp .rsvp-copy>p,.event-section .venue-card>h3,.event-section .venue-card>p{margin-inline:auto;max-width:100%;text-align:center}
+.rsvp .rsvp-copy>.eyebrow,.parents .parents-intro>.eyebrow{justify-content:center;text-align:center}
+.event-section .venue-card{align-items:center;padding:28px 20px}
+.event-section .venue-label{justify-content:center;text-align:center}
+.event-section .venue-card .landmark{text-align:center}
+.event-section .venue-map-button{align-self:center;margin-inline:auto;justify-content:center;gap:18px}
+.rsvp .rsvp-copy>h2{font-size:clamp(32px,8.5vw,39px);line-height:1.2}
+}
