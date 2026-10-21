@@ -11,3 +11,38 @@
 @media(max-width:360px){.event-month--systems{padding:23px 16px}.event-month--systems .em-title{font-size:27px}.event-month--systems .em-title small{font-size:21px;margin-left:8px}.event-month--systems .em-table td{font-size:16px;height:38px}.event-month--systems .em-day{max-width:27px;height:29px}.event-month--systems .em-table th{font-size:8px}.event-month--systems .em-top>span{font-size:7px;letter-spacing:0}.event-month--systems .em-caption{font-size:13px}.event-section .venue-card{padding:25px 20px}.venue-map-button{padding:15px 17px;font-size:11px;gap:18px}}
 .event-month--systems .em-selected{max-width:100%;width:100%;background:transparent;isolation:isolate;color:#edcf91}.event-month--systems .em-selected:before{content:'<';position:static;inset:auto;border:0;border-radius:0;transform:none;font:12px/1 monospace;color:#a9d9ce;grid-column:1;grid-row:1}.event-month--systems .em-selected time{grid-column:2;grid-row:1;font-size:17px}.event-month--systems .em-selected:after{content:'/>';position:static;top:auto;right:auto;inset:auto;background:none;font:10px/1 monospace;color:#a9d9ce;grid-column:3;grid-row:1}.event-month--systems .em-selected{grid-template-columns:auto auto auto;justify-content:center;column-gap:1px;border-bottom:1px solid #d1b47d88;border-radius:0}@media(max-width:360px){.event-month--systems .em-selected time{font-size:16px}.event-month--systems .em-selected:before{font-size:10px}.event-month--systems .em-selected:after{font-size:9px}.event-month--systems .em-selected{column-gap:0}}
 .event-month--systems .em-selected{height:36px;min-width:0;background:#d8ba7d;border:1px solid #f1d89e;border-bottom:1px solid #f1d89e;border-radius:6px;box-shadow:0 0 0 3px #d8ba7d16,0 3px 12px #0002;column-gap:1px}.event-month--systems .em-selected time{font-size:21px;font-weight:700;color:#14343b}.event-month--systems .em-selected:before,.event-month--systems .em-selected:after{color:#31524d;font-size:10px;font-weight:600}.event-month--systems .em-caption{color:#e8cd94;font-weight:500;font-size:16px;letter-spacing:.1px}@media(max-width:360px){.event-month--systems .em-selected{height:33px;column-gap:0}.event-month--systems .em-selected time{font-size:19px}.event-month--systems .em-selected:before,.event-month--systems .em-selected:after{font-size:8px}.event-month--systems .em-caption{font-size:14px}}
+
+/* Compact family layout with captions outside the photographs. */
+.family-section.section{padding-top:36px;padding-bottom:40px;min-height:0}
+.family-section .family-heading{margin-bottom:24px}
+.family-section .family-content{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);align-items:center;gap:30px}
+.family-section .family-letter{padding-top:0;padding-bottom:0}
+.family-section .family-letter>svg{margin-bottom:12px}
+.family-section .family-letter>p{font-size:14px;line-height:1.7;margin:0 0 16px}
+.family-section .letter-signature{margin-top:18px;line-height:1.5}
+.family-section .photo-carousel{aspect-ratio:auto;min-width:0;align-self:center}
+.family-section .photo-slide{position:relative;inset:auto;display:none;transition:none;opacity:1;visibility:visible}
+.family-section .photo-slide.active{display:grid;grid-template-rows:clamp(280px,32vw,420px) auto}
+.family-section .photo-slide img{width:100%;height:100%;min-height:0;object-fit:contain}
+.family-section .photo-slide figcaption{position:static;margin:0;padding:14px 16px;background:#092330;border-left:0;border-top:1px solid #7ac4c333;color:#daeee8;font-size:12px;line-height:1.6;min-height:66px;display:flex;align-items:center}
+@media(max-width:760px){
+.family-section.section{padding-top:28px;padding-bottom:28px}
+.family-section .family-content{grid-template-columns:minmax(0,1fr);gap:20px}
+.family-section .family-letter>p{font-size:13px;line-height:1.7;margin-bottom:13px}
+.family-section .family-heading h2{font-size:32px}
+.family-section .photo-slide.active{grid-template-rows:clamp(260px,70vw,380px) auto}
+.family-section .photo-slide figcaption{font-size:12px;padding:12px 14px;min-height:64px}
+}
+/* Give the memories the full section width, without cropping the family. */
+.family-section .family-content{grid-template-columns:minmax(0,1fr);gap:28px}
+.family-section .family-letter{max-width:900px;width:100%;margin-inline:auto}
+.family-section .photo-carousel{width:100%;max-width:1100px;margin-inline:auto}
+.family-section .photo-slide.active{grid-template-rows:clamp(330px,45vw,550px) auto}
+.family-section .photo-slide:first-child.active{grid-template-rows:auto auto}
+.family-section .photo-slide:first-child img{height:auto;aspect-ratio:1911/738;object-fit:contain}
+.family-section .photo-slide figcaption{justify-content:center;text-align:center;min-height:54px}
+@media(max-width:760px){
+.family-section .family-content{gap:20px}
+.family-section .photo-slide.active{grid-template-rows:clamp(300px,85vw,480px) auto}
+.family-section .photo-slide:first-child.active{grid-template-rows:auto auto}
+}
